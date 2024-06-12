@@ -6,6 +6,7 @@ const Products: CollectionConfig = {
     useAsTitle: "name",
   },
   access: {
+    read: () => true,
     create: () => true,
   },
   fields: [
